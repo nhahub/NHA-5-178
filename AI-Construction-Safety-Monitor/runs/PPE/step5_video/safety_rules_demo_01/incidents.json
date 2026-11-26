@@ -1,0 +1,41 @@
+{
+  "source": "C:\\Users\\Hp\\Documents\\GitHub\\NHA-5-178\\AI-Construction-Safety-Monitor\\videos\\8964295-uhd_3840_2160_25fps.mp4",
+  "source_status": "complete",
+  "status": "complete",
+  "method": "Adjacent sampled frames only: unique mutual person box IoU >= 0.5; per-PPE contiguous MISSING episodes. Resets on uncertainty, absence, errors, gaps or ambiguous matches. IDs are not verified identities.",
+  "warning": "Experimental, unverified model-derived incidents; not confirmed violations.",
+  "incidents": [
+    {
+      "timestamp_seconds": 0.0,
+      "frame_index": 0,
+      "person_id": 2,
+      "dedup_person_id": 2,
+      "person_box": [
+        2045.0657958984375,
+        258.8770751953125,
+        3200.43115234375,
+        2142.691650390625
+      ],
+      "person_confidence": 0.9372314810752869,
+      "ppe_type": "vest",
+      "decision": "MISSING",
+      "confidence": 0.6170954704284668,
+      "evidence": [
+        {
+          "detection_id": 3,
+          "class_name": "NoVest",
+          "box": [
+            2138.975830078125,
+            820.5948486328125,
+            3097.768798828125,
+            1808.4405517578125
+          ],
+          "confidence": 0.6170954704284668,
+          "region_overlap": 0.9569651249463698
+        }
+      ],
+      "review_status": "unverified_model_output"
+    }
+  ],
+  "source_results": "C:\\Users\\Hp\\Documents\\GitHub\\NHA-5-178\\AI-Construction-Safety-Monitor\\runs\\PPE\\step5_video\\sample_01\\results.json"
+}

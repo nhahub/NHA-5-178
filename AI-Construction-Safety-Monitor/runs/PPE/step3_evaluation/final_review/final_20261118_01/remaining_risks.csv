@@ -1,0 +1,10 @@
+priority,risk,evidence,impact,mitigation,status
+High,Incomplete annotations,Many visible helmets with sparse labels in crowded sample images,Validation false positives and scores may be misleading,Clarify scope and adjudicate high-priority examples in a versioned review,Open
+High,Possible incorrect class,00269 NoHelmet labels appear on helmeted workers,Model and evaluation can learn or score incorrect semantics,Confirm class policy and adjudicate case at original resolution,Open
+High,NoVest performance,320 mAP50 0.5254 and recall 0.5491 at validator operating point,Violation evidence may be unreliable,Use unknown state and evaluate per-class worker-level scenarios,Open
+High,Uncertain person PPE association,Person association and worker-level evidence not yet validated,Wrong worker could receive violation,Use conservative association and ambiguity suppression with scenario tests,Open
+Medium,Small or distant objects,320 fixed-threshold small-object recall 192 of 296,Missed evidence for distant workers,Include representative scenarios and review uncertain evidence,Open
+Medium,Scene leakage,Exact and pHash checks cannot exclude similar scenes or source videos,Validation may overestimate generalization,Audit provenance and source-level splits before final claims,Open
+Medium,Limited human verification,Automated visual triage is a convenience sample,Unknown dataset-wide label quality,Use targeted human adjudication and documented policy,Open
+Medium,Boundary coordinate rounding,52 boxes exceed image boundaries by about 0.005 pixel,Potential tool-specific clipping behavior,Document tolerance and retain original annotations; verify tool behavior if migrating,Open
+Medium,Tiling not validated,One historical saved visualization and uncertain labels,False confidence in tiled method,Do not use as established improvement without controlled evaluation,Open

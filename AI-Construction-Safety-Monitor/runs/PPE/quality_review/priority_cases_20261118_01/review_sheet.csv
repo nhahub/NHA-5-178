@@ -1,0 +1,6 @@
+﻿case_id,image_filename,model_person_id,verified_person_box,visible_helmet_status,visible_vest_status,ppe_detection_ownership,reviewer_decision,notes
+A1,00016_jpg.rf.a5de42674ff1996a69f005db19136b4e.jpg,P1,,,,,,
+B2,00025_jpg.rf.75084f3cd7ae2aff6d2c8714db534bde.jpg,P2,,,,,,
+B3,00025_jpg.rf.75084f3cd7ae2aff6d2c8714db534bde.jpg,P1,,,,,,
+C3,00783_jpg.rf.b14d4d7f5bba1016d08a48b61d317eac.jpg,P6,,,,,,
+D2,00031_jpg.rf.708f654c7f1b7e851d9aca1598b86e96.jpg,P1,,,,,,

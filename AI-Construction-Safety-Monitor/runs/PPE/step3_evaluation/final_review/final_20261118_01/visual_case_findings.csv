@@ -1,0 +1,20 @@
+image_prefix,priority,automated_visual_observation,decision
+00016,medium,Ground truth marks helmet only; predicted torso no-vest may reflect unlabelled target subject to policy,Unconfirmed
+00024,high,Two visible vested people but only one ground-truth vest box; second vest prediction is plausible,Potential incomplete labels
+00025,high,Multiple visible helmets; ground truth labels one helmet and two vests,Potential incomplete labels
+00031,high,Crowded scene with many visible helmets but only three helmet ground-truth boxes,Potential incomplete labels
+00046,medium,Two people marked no-vest; predictions appear broadly aligned though distant head evidence is uncertain,Unconfirmed
+00048,high,Crowd wearing helmets; only a few ground-truth boxes shown,Potential incomplete labels
+00049,medium,Three helmet labels visible; torso predictions and unlabelled torso need policy-based assessment,Unconfirmed
+00100,medium,Two helmet labels; farther yellow helmet has no apparent 320 prediction,Potential missed detection
+00269,high,Two ground-truth NoHelmet boxes appear over workers wearing hard hats; confirm original class policy and image at full resolution,Potential class errors
+00308,high,Large group with many visible hard hats and only a few ground-truth helmet boxes,Potential incomplete labels
+00739,medium,Dark scene with several people and subset of labels; predictions extend to unlabelled people,Potential incomplete labels
+00769,medium,Distant dense group and foreground subject; many tiny persons are unlabelled and detection coverage uncertain,Potential incomplete labels
+00783,medium,Crowded scene with partial occlusion; not all people have boxes and helmet association is ambiguous,Unconfirmed
+03104,medium,Tunnel scene with many workers and subset of labels; some predictions appear on unlabelled persons,Potential incomplete labels
+03178,medium,Tiny workers and sparse detections; boundary box overrun is only 0.005 pixel,Potential missed detection
+03214,high,Two ground-truth vest labels in dark tunnel and no visible 320 predictions,Potential missed detections
+03220,high,Many visible helmets but only subset labelled; several 320 predictions in foreground,Potential incomplete labels
+03295,high,Large crowd with six labelled vest objects and many visible people; full-frame detection sparse and historic tiling not independently verified,Potential incomplete labels
+20241027012,medium,Very small distant subjects and no visible 320 predictions at contact-sheet resolution,Potential missed detections

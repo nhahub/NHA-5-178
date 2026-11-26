@@ -1,0 +1,73 @@
+{
+  "status": "proposal_only_no_changes_applied",
+  "policy_status": "class_mapping_and_yolo_format_verified_semantic_and_box_policy_unresolved",
+  "human_review_status": "no_completed_dataset_review_decisions_found",
+  "confirmed_corrections": [],
+  "test_split_changes": [],
+  "proposals": [
+    {
+      "id": "VAL-00269-CLASS-1",
+      "status": "pending_independent_human_and_policy_confirmation",
+      "split": "valid",
+      "image": "00269_jpg.rf.0df82c5293d7fe31962e1bcfa25a8a1c.jpg",
+      "label_path": "dataset/processed/PPE/valid/labels/00269_jpg.rf.0df82c5293d7fe31962e1bcfa25a8a1c.txt",
+      "label_sha256": "1964b6e70a7da6ace8aef0c813701255115ee02689e6f9605419b0fd964b8fa0",
+      "line": 1,
+      "current": "1 0.46799498746867163 0.44387453874538746 0.051278195488721805 0.09645756457564576",
+      "proposed_if_policy_confirms_head_box_unchanged": "0 0.46799498746867163 0.44387453874538746 0.051278195488721805 0.09645756457564576",
+      "reason": "Worker appears to wear yellow helmet; box includes head/face so extent policy must be confirmed."
+    },
+    {
+      "id": "VAL-00269-CLASS-2",
+      "status": "pending_independent_human_and_policy_confirmation",
+      "split": "valid",
+      "image": "00269_jpg.rf.0df82c5293d7fe31962e1bcfa25a8a1c.jpg",
+      "label_path": "dataset/processed/PPE/valid/labels/00269_jpg.rf.0df82c5293d7fe31962e1bcfa25a8a1c.txt",
+      "label_sha256": "1964b6e70a7da6ace8aef0c813701255115ee02689e6f9605419b0fd964b8fa0",
+      "line": 2,
+      "current": "1 0.6525563909774437 0.3781180811808118 0.05879699248120301 0.10992619926199261",
+      "proposed_if_policy_confirms_head_box_unchanged": "0 0.6525563909774437 0.3781180811808118 0.05879699248120301 0.10992619926199261",
+      "reason": "Worker appears to wear blue helmet; box includes head/face so extent policy must be confirmed."
+    },
+    {
+      "id": "VAL-00016-NOVEST",
+      "status": "uncertain_no_patch",
+      "split": "valid",
+      "image": "00016_jpg.rf.a5de42674ff1996a69f005db19136b4e.jpg",
+      "label_sha256": "35595afadfbdfcbbff7b3029a0bb18ec8bb63500fc511a3780d090df727a7542",
+      "proposed_class": "NoVest (2)",
+      "coordinates": null,
+      "reason": "No vest visible on exposed shirt, but plans obscure torso; visibility rule and independent review required."
+    },
+    {
+      "id": "VAL-00739-NOVEST",
+      "status": "uncertain_no_patch",
+      "split": "valid",
+      "image": "00739_jpg.rf.58a11b096dede5f18d7fec19b5fb02e8.jpg",
+      "label_sha256": "c779ef5f97e67d76628dcd89030ac2b1cb8c512a48654063d66e65d17677d9bc",
+      "proposed_class": "NoVest (2)",
+      "coordinates": null,
+      "reason": "Additional left-side figure appears to lack a high-visibility vest; dark image and scope/visibility requirements need review. Two NoVest boxes already exist for other figures."
+    },
+    {
+      "id": "VAL-00025-VEST",
+      "status": "visually_suspected_missing_label_no_patch",
+      "split": "valid",
+      "image": "00025_jpg.rf.75084f3cd7ae2aff6d2c8714db534bde.jpg",
+      "label_sha256": "436c17588e3e3872a61a92bf69e6f8cc4ed7af7560c21877d5001200684d6219",
+      "proposed_class": "Vest (3)",
+      "coordinates": null,
+      "reason": "Foreground right worker visibly wears vest but existing two vest boxes cover other workers; new coordinates and occlusion policy require human review. This is a Vest candidate, not NoVest."
+    },
+    {
+      "id": "VAL-00031-HELMETS",
+      "status": "visually_suspected_missing_labels_no_patch",
+      "split": "valid",
+      "image": "00031_jpg.rf.708f654c7f1b7e851d9aca1598b86e96.jpg",
+      "label_sha256": "2b5d90d2413c8d328df6c81181738e997b47b402ded0b310fed79dc4ed800e03",
+      "proposed_class": "Helmet (0)",
+      "coordinates": null,
+      "reason": "Additional helmets appear unlabelled in crowded scene; completeness and geometry need individual adjudication."
+    }
+  ]
+}

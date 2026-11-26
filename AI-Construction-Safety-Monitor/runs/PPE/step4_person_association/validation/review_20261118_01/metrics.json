@@ -1,0 +1,48 @@
+{
+  "method": "Greedy IoU >= 0.5 on manually drawn assistant-provisional visible person boxes, then compare per-person statuses. Selected GT not exhaustive; human_verified=no for all. PPE-to-person physical assignment requires separate labelled PPE box ownership; status agreement is not assignment accuracy.",
+  "totals": {
+    "selected_person_boxes": 9,
+    "matched_selected_boxes": 9,
+    "matched_person_item_decisions": 18,
+    "known_truth_item_decisions": 10,
+    "status_correct": 5,
+    "missing_on_unknown_truth": 1,
+    "unknown_decisions": 12,
+    "known_truth_unknown": 5
+  },
+  "per_image": [
+    {
+      "image": "00016_jpg.rf.a5de42674ff1996a69f005db19136b4e.jpg",
+      "selected_gt_people": 1,
+      "matched_selected_people": 1,
+      "predicted_people": 1,
+      "note": "Selected GT boxes are non-exhaustive; unmatched predictions are not counted as false positives."
+    },
+    {
+      "image": "00025_jpg.rf.75084f3cd7ae2aff6d2c8714db534bde.jpg",
+      "selected_gt_people": 3,
+      "matched_selected_people": 3,
+      "predicted_people": 4,
+      "note": "Selected GT boxes are non-exhaustive; unmatched predictions are not counted as false positives."
+    },
+    {
+      "image": "00783_jpg.rf.b14d4d7f5bba1016d08a48b61d317eac.jpg",
+      "selected_gt_people": 3,
+      "matched_selected_people": 3,
+      "predicted_people": 9,
+      "note": "Selected GT boxes are non-exhaustive; unmatched predictions are not counted as false positives."
+    },
+    {
+      "image": "00031_jpg.rf.708f654c7f1b7e851d9aca1598b86e96.jpg",
+      "selected_gt_people": 2,
+      "matched_selected_people": 2,
+      "predicted_people": 9,
+      "note": "Selected GT boxes are non-exhaustive; unmatched predictions are not counted as false positives."
+    }
+  ],
+  "physical_assignment_metrics": null,
+  "reason_assignment_unavailable": "No independently annotated PPE-box ownership or human-verified labels",
+  "detection_confidence": 0.25,
+  "status_confidence": 0.5,
+  "iou_person_matching": 0.5
+}

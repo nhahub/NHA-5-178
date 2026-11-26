@@ -1,0 +1,10 @@
+image_filename,person_gt_id,x1,y1,x2,y2,helmet_status,vest_status,annotation_source,human_verified,notes
+00016_jpg.rf.a5de42674ff1996a69f005db19136b4e.jpg,A1,0,100,815,1024,PRESENT,UNKNOWN,assistant_visual_provisional,no,Close-up torso partly obscured by plans; vest absence not asserted
+00025_jpg.rf.75084f3cd7ae2aff6d2c8714db534bde.jpg,B1,34,109,151,318,PRESENT,PRESENT,assistant_visual_provisional,no,Foreground worker at left
+00025_jpg.rf.75084f3cd7ae2aff6d2c8714db534bde.jpg,B2,275,115,350,300,PRESENT,PRESENT,assistant_visual_provisional,no,Middle worker partly overlapping foreground person
+00025_jpg.rf.75084f3cd7ae2aff6d2c8714db534bde.jpg,B3,310,130,442,332,PRESENT,PRESENT,assistant_visual_provisional,no,Foreground worker on right
+00783_jpg.rf.b14d4d7f5bba1016d08a48b61d317eac.jpg,C1,53,100,187,319,UNKNOWN,UNKNOWN,assistant_visual_provisional,no,Foreground left person; PPE visibility uncertain
+00783_jpg.rf.b14d4d7f5bba1016d08a48b61d317eac.jpg,C2,220,84,315,348,UNKNOWN,UNKNOWN,assistant_visual_provisional,no,Back-facing foreground person with occlusion
+00783_jpg.rf.b14d4d7f5bba1016d08a48b61d317eac.jpg,C3,375,82,460,319,PRESENT,UNKNOWN,assistant_visual_provisional,no,Yellow helmet visible from behind; torso partly obscured
+00031_jpg.rf.708f654c7f1b7e851d9aca1598b86e96.jpg,D1,264,82,310,244,PRESENT,UNKNOWN,assistant_visual_provisional,no,Rightmost standing worker helmet visible
+00031_jpg.rf.708f654c7f1b7e851d9aca1598b86e96.jpg,D2,110,132,253,267,PRESENT,UNKNOWN,assistant_visual_provisional,no,Foreground crouched worker helmet visible; torso occluded

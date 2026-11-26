@@ -1,0 +1,30 @@
+{
+  "selection": [
+    "00031_jpg.rf.708f654c7f1b7e851d9aca1598b86e96.jpg",
+    "00100_jpg.rf.292aab6d38d49dd7fe01bdacb09ef6cd.jpg",
+    "00308_jpg.rf.49ae3b641ef69a9548a7fa6e4f3f8df2.jpg",
+    "00269_jpg.rf.0df82c5293d7fe31962e1bcfa25a8a1c.jpg",
+    "00783_jpg.rf.b14d4d7f5bba1016d08a48b61d317eac.jpg",
+    "00739_jpg.rf.58a11b096dede5f18d7fec19b5fb02e8.jpg",
+    "00769_jpg.rf.4846bca179a9f75adc12e23812f6c875.jpg",
+    "03178_jpg.rf.9bdb04c9f06e1c85cb816e6e9b0e2172.jpg",
+    "03104_jpg.rf.c908ad0b76083ef4b64945acb3e94fc1.jpg",
+    "03214_jpg.rf.40df8c31a486a8466010a344ba814fc1.jpg",
+    "03295_jpg.rf.28082ec6b792bc923e0dcbe473c4551e.jpg",
+    "03220_jpg.rf.fc098b96d0d200009b3c6c1d19bff73a.jpg",
+    "20241027012_jpg.rf.ceaf1c791a20b330ed44218edccd13fd.jpg",
+    "00016_jpg.rf.a5de42674ff1996a69f005db19136b4e.jpg",
+    "00024_jpg.rf.2ff00ad9e72623549aa8aa4a022e22c5.jpg",
+    "00025_jpg.rf.75084f3cd7ae2aff6d2c8714db534bde.jpg",
+    "00046_jpg.rf.728d45c0238a255fd72d21663fdce875.jpg",
+    "00048_jpg.rf.d09863b709e35c72aeb1cf6367ee5c25.jpg",
+    "00049_jpg.rf.e556f506ddf7fbc48d7657a9bc723c88.jpg"
+  ],
+  "method": "First three missed rows per class, highest missed-count images, first six images absent from missed queue; deduplicated. Convenience sample, not statistically representative.",
+  "historical_tiled_prediction": "copied existing visualization; provenance not independently established",
+  "prediction_settings": {
+    "imgsz": 320,
+    "conf": 0.25
+  },
+  "human_review": "pending"
+}

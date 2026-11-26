@@ -1,0 +1,464 @@
+{
+  "case_id": "D2",
+  "image": "00031_jpg.rf.708f654c7f1b7e851d9aca1598b86e96.jpg",
+  "provisional_target_box": [
+    110,
+    132,
+    253,
+    267
+  ],
+  "target_person_id": 1,
+  "matched_person_iou": 0.889,
+  "ground_truth_labels": [
+    "G1: Helmet",
+    "G2: Helmet",
+    "G3: Helmet"
+  ],
+  "person_association": {
+    "person_id": 1,
+    "person_box": [
+      118.36856842041016,
+      136.27639770507812,
+      251.7950439453125,
+      264.8944396972656
+    ],
+    "person_confidence": 0.904502809047699,
+    "helmet_status": "UNKNOWN",
+    "vest_status": "UNKNOWN",
+    "associated_ppe": [
+      {
+        "detection_id": 7,
+        "class_name": "Helmet",
+        "box": [
+          149.1588897705078,
+          135.7971954345703,
+          183.35357666015625,
+          174.1106719970703
+        ],
+        "confidence": 0.30957940220832825,
+        "region_overlap": 0.987492592332985
+      }
+    ],
+    "explanations": {
+      "helmet": [
+        "Detection 7 is below the confidence threshold",
+        "No sufficiently confident associated evidence"
+      ],
+      "vest": [
+        "No sufficiently confident associated evidence"
+      ]
+    }
+  },
+  "all_person_associations": [
+    {
+      "person_id": 1,
+      "person_box": [
+        118.36856842041016,
+        136.27639770507812,
+        251.7950439453125,
+        264.8944396972656
+      ],
+      "person_confidence": 0.904502809047699,
+      "helmet_status": "UNKNOWN",
+      "vest_status": "UNKNOWN",
+      "associated_ppe": [
+        {
+          "detection_id": 7,
+          "class_name": "Helmet",
+          "box": [
+            149.1588897705078,
+            135.7971954345703,
+            183.35357666015625,
+            174.1106719970703
+          ],
+          "confidence": 0.30957940220832825,
+          "region_overlap": 0.987492592332985
+        }
+      ],
+      "explanations": {
+        "helmet": [
+          "Detection 7 is below the confidence threshold",
+          "No sufficiently confident associated evidence"
+        ],
+        "vest": [
+          "No sufficiently confident associated evidence"
+        ]
+      }
+    },
+    {
+      "person_id": 2,
+      "person_box": [
+        265.143798828125,
+        80.89102935791016,
+        308.9444580078125,
+        236.08094787597656
+      ],
+      "person_confidence": 0.8959762454032898,
+      "helmet_status": "PRESENT",
+      "vest_status": "UNKNOWN",
+      "associated_ppe": [
+        {
+          "detection_id": 1,
+          "class_name": "Helmet",
+          "box": [
+            267.5537414550781,
+            80.79331970214844,
+            289.1038818359375,
+            107.43151092529297
+          ],
+          "confidence": 0.6598952412605286,
+          "region_overlap": 0.9963319710807983
+        },
+        {
+          "detection_id": 5,
+          "class_name": "NoVest",
+          "box": [
+            268.9241638183594,
+            109.7730941772461,
+            308.2417907714844,
+            167.0088348388672
+          ],
+          "confidence": 0.33718499541282654,
+          "region_overlap": 0.9623326463612452
+        }
+      ],
+      "explanations": {
+        "helmet": [],
+        "vest": [
+          "Detection 5 is below the confidence threshold",
+          "No sufficiently confident associated evidence"
+        ]
+      }
+    },
+    {
+      "person_id": 3,
+      "person_box": [
+        11.18234634399414,
+        84.57263946533203,
+        59.67724609375,
+        212.0880889892578
+      ],
+      "person_confidence": 0.848373293876648,
+      "helmet_status": "UNKNOWN",
+      "vest_status": "UNKNOWN",
+      "associated_ppe": [
+        {
+          "detection_id": 6,
+          "class_name": "Helmet",
+          "box": [
+            18.8110294342041,
+            84.60868835449219,
+            38.52375793457031,
+            106.65400695800781
+          ],
+          "confidence": 0.3297114968299866,
+          "region_overlap": 1.0
+        }
+      ],
+      "explanations": {
+        "helmet": [
+          "Detection 6 is below the confidence threshold",
+          "No sufficiently confident associated evidence"
+        ],
+        "vest": [
+          "No sufficiently confident associated evidence"
+        ]
+      }
+    },
+    {
+      "person_id": 4,
+      "person_box": [
+        42.31718063354492,
+        69.86852264404297,
+        92.69567108154297,
+        233.56527709960938
+      ],
+      "person_confidence": 0.8004786968231201,
+      "helmet_status": "UNKNOWN",
+      "vest_status": "UNKNOWN",
+      "associated_ppe": [
+        {
+          "detection_id": 8,
+          "class_name": "Helmet",
+          "box": [
+            51.96501159667969,
+            70.96754455566406,
+            73.96965026855469,
+            94.90800476074219
+          ],
+          "confidence": 0.2865150570869446,
+          "region_overlap": 1.0
+        }
+      ],
+      "explanations": {
+        "helmet": [
+          "Detection 8 is below the confidence threshold",
+          "No sufficiently confident associated evidence"
+        ],
+        "vest": [
+          "No sufficiently confident associated evidence"
+        ]
+      }
+    },
+    {
+      "person_id": 5,
+      "person_box": [
+        166.18663024902344,
+        92.91505432128906,
+        218.2640380859375,
+        164.96121215820312
+      ],
+      "person_confidence": 0.7008143067359924,
+      "helmet_status": "UNKNOWN",
+      "vest_status": "UNKNOWN",
+      "associated_ppe": [
+        {
+          "detection_id": 3,
+          "class_name": "Helmet",
+          "box": [
+            195.45489501953125,
+            93.43525695800781,
+            211.45106506347656,
+            114.95147705078125
+          ],
+          "confidence": 0.47704026103019714,
+          "region_overlap": 1.0
+        }
+      ],
+      "explanations": {
+        "helmet": [
+          "Detection 3 is below the confidence threshold",
+          "No sufficiently confident associated evidence"
+        ],
+        "vest": [
+          "No sufficiently confident associated evidence"
+        ]
+      }
+    },
+    {
+      "person_id": 6,
+      "person_box": [
+        56.134056091308594,
+        100.49945831298828,
+        124.07910919189453,
+        264.03045654296875
+      ],
+      "person_confidence": 0.634825587272644,
+      "helmet_status": "PRESENT",
+      "vest_status": "UNKNOWN",
+      "associated_ppe": [
+        {
+          "detection_id": 2,
+          "class_name": "Helmet",
+          "box": [
+            90.05656433105469,
+            98.64176177978516,
+            115.16085815429688,
+            127.91597747802734
+          ],
+          "confidence": 0.5243340134620667,
+          "region_overlap": 0.9365415438503217
+        }
+      ],
+      "explanations": {
+        "helmet": [],
+        "vest": [
+          "No sufficiently confident associated evidence"
+        ]
+      }
+    },
+    {
+      "person_id": 7,
+      "person_box": [
+        199.62054443359375,
+        65.49205780029297,
+        227.32803344726562,
+        143.68521118164062
+      ],
+      "person_confidence": 0.6226695775985718,
+      "helmet_status": "UNKNOWN",
+      "vest_status": "UNKNOWN",
+      "associated_ppe": [],
+      "explanations": {
+        "helmet": [
+          "No sufficiently confident associated evidence"
+        ],
+        "vest": [
+          "No sufficiently confident associated evidence"
+        ]
+      }
+    },
+    {
+      "person_id": 8,
+      "person_box": [
+        118.45572662353516,
+        65.00151062011719,
+        149.88058471679688,
+        129.1012420654297
+      ],
+      "person_confidence": 0.40541332960128784,
+      "helmet_status": "UNKNOWN",
+      "vest_status": "UNKNOWN",
+      "associated_ppe": [
+        {
+          "detection_id": 4,
+          "class_name": "Helmet",
+          "box": [
+            122.68592834472656,
+            65.70140838623047,
+            138.6699676513672,
+            84.9017105102539
+          ],
+          "confidence": 0.40835025906562805,
+          "region_overlap": 1.0
+        }
+      ],
+      "explanations": {
+        "helmet": [
+          "Detection 4 is below the confidence threshold",
+          "No sufficiently confident associated evidence"
+        ],
+        "vest": [
+          "No sufficiently confident associated evidence"
+        ]
+      }
+    },
+    {
+      "person_id": 9,
+      "person_box": [
+        42.567108154296875,
+        78.31791687011719,
+        109.27011108398438,
+        241.49879455566406
+      ],
+      "person_confidence": 0.34701094031333923,
+      "helmet_status": "UNKNOWN",
+      "vest_status": "UNKNOWN",
+      "associated_ppe": [],
+      "explanations": {
+        "helmet": [
+          "No sufficiently confident associated evidence"
+        ],
+        "vest": [
+          "No sufficiently confident associated evidence"
+        ]
+      }
+    }
+  ],
+  "all_ppe_detections": [
+    {
+      "class_name": "Helmet",
+      "confidence": 0.6598952412605286,
+      "box": [
+        267.5537414550781,
+        80.79331970214844,
+        289.1038818359375,
+        107.43151092529297
+      ]
+    },
+    {
+      "class_name": "Helmet",
+      "confidence": 0.5243340134620667,
+      "box": [
+        90.05656433105469,
+        98.64176177978516,
+        115.16085815429688,
+        127.91597747802734
+      ]
+    },
+    {
+      "class_name": "Helmet",
+      "confidence": 0.47704026103019714,
+      "box": [
+        195.45489501953125,
+        93.43525695800781,
+        211.45106506347656,
+        114.95147705078125
+      ]
+    },
+    {
+      "class_name": "Helmet",
+      "confidence": 0.40835025906562805,
+      "box": [
+        122.68592834472656,
+        65.70140838623047,
+        138.6699676513672,
+        84.9017105102539
+      ]
+    },
+    {
+      "class_name": "NoVest",
+      "confidence": 0.33718499541282654,
+      "box": [
+        268.9241638183594,
+        109.7730941772461,
+        308.2417907714844,
+        167.0088348388672
+      ]
+    },
+    {
+      "class_name": "Helmet",
+      "confidence": 0.3297114968299866,
+      "box": [
+        18.8110294342041,
+        84.60868835449219,
+        38.52375793457031,
+        106.65400695800781
+      ]
+    },
+    {
+      "class_name": "Helmet",
+      "confidence": 0.30957940220832825,
+      "box": [
+        149.1588897705078,
+        135.7971954345703,
+        183.35357666015625,
+        174.1106719970703
+      ]
+    },
+    {
+      "class_name": "Helmet",
+      "confidence": 0.2865150570869446,
+      "box": [
+        51.96501159667969,
+        70.96754455566406,
+        73.96965026855469,
+        94.90800476074219
+      ]
+    }
+  ],
+  "detection_owners": {
+    "7": [
+      1
+    ],
+    "1": [
+      2
+    ],
+    "5": [
+      2
+    ],
+    "6": [
+      3
+    ],
+    "8": [
+      4
+    ],
+    "3": [
+      5
+    ],
+    "2": [
+      6
+    ],
+    "4": [
+      8
+    ]
+  },
+  "source_settings": {
+    "person_imgsz": 640,
+    "ppe_imgsz": 320,
+    "detection_conf": 0.25,
+    "association_conf": 0.5,
+    "region_overlap": 0.6,
+    "ambiguity_margin": 0.15
+  }
+}

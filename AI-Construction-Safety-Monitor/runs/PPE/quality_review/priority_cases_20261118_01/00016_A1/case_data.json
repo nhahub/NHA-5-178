@@ -1,0 +1,139 @@
+{
+  "case_id": "A1",
+  "image": "00016_jpg.rf.a5de42674ff1996a69f005db19136b4e.jpg",
+  "provisional_target_box": [
+    0,
+    100,
+    815,
+    1024
+  ],
+  "target_person_id": 1,
+  "matched_person_iou": 0.865,
+  "ground_truth_labels": [
+    "G1: Helmet"
+  ],
+  "person_association": {
+    "person_id": 1,
+    "person_box": [
+      1.1938965320587158,
+      104.2022476196289,
+      711.4368286132812,
+      1021.1488037109375
+    ],
+    "person_confidence": 0.8098081946372986,
+    "helmet_status": "PRESENT",
+    "vest_status": "MISSING",
+    "associated_ppe": [
+      {
+        "detection_id": 1,
+        "class_name": "Helmet",
+        "box": [
+          171.5288543701172,
+          111.64833068847656,
+          479.86669921875,
+          500.6351623535156
+        ],
+        "confidence": 0.921806812286377,
+        "region_overlap": 0.9237653054463835
+      },
+      {
+        "detection_id": 2,
+        "class_name": "NoVest",
+        "box": [
+          0.0,
+          522.3717651367188,
+          615.3961791992188,
+          1024.0
+        ],
+        "confidence": 0.615308940410614,
+        "region_overlap": 0.6275082600350341
+      }
+    ],
+    "explanations": {
+      "helmet": [],
+      "vest": []
+    }
+  },
+  "all_person_associations": [
+    {
+      "person_id": 1,
+      "person_box": [
+        1.1938965320587158,
+        104.2022476196289,
+        711.4368286132812,
+        1021.1488037109375
+      ],
+      "person_confidence": 0.8098081946372986,
+      "helmet_status": "PRESENT",
+      "vest_status": "MISSING",
+      "associated_ppe": [
+        {
+          "detection_id": 1,
+          "class_name": "Helmet",
+          "box": [
+            171.5288543701172,
+            111.64833068847656,
+            479.86669921875,
+            500.6351623535156
+          ],
+          "confidence": 0.921806812286377,
+          "region_overlap": 0.9237653054463835
+        },
+        {
+          "detection_id": 2,
+          "class_name": "NoVest",
+          "box": [
+            0.0,
+            522.3717651367188,
+            615.3961791992188,
+            1024.0
+          ],
+          "confidence": 0.615308940410614,
+          "region_overlap": 0.6275082600350341
+        }
+      ],
+      "explanations": {
+        "helmet": [],
+        "vest": []
+      }
+    }
+  ],
+  "all_ppe_detections": [
+    {
+      "class_name": "Helmet",
+      "confidence": 0.921806812286377,
+      "box": [
+        171.5288543701172,
+        111.64833068847656,
+        479.86669921875,
+        500.6351623535156
+      ]
+    },
+    {
+      "class_name": "NoVest",
+      "confidence": 0.615308940410614,
+      "box": [
+        0.0,
+        522.3717651367188,
+        615.3961791992188,
+        1024.0
+      ]
+    }
+  ],
+  "detection_owners": {
+    "1": [
+      1
+    ],
+    "2": [
+      1
+    ]
+  },
+  "source_settings": {
+    "person_imgsz": 640,
+    "ppe_imgsz": 320,
+    "detection_conf": 0.25,
+    "association_conf": 0.5,
+    "region_overlap": 0.6,
+    "ambiguity_margin": 0.15
+  }
+}

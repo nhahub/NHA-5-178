@@ -1,0 +1,81 @@
+{
+  "checkpoint": "C:\\Users\\Hp\\Documents\\GitHub\\NHA-5-178\\runs\\detect\\runs\\PPE\\balanced_30_epochs\\weights\\best.pt",
+  "checkpoint_sha256": "949868ad6938a30ac1b380c25e0ceb6eebb17ece9fbf0a00953b453143503f23",
+  "source_yaml": "C:\\Users\\Hp\\Documents\\GitHub\\NHA-5-178\\AI-Construction-Safety-Monitor\\dataset\\processed\\PPE\\data_balanced.yaml",
+  "source_yaml_sha256": "7dd7c60d4e48c561d4c7ed31ad380f95d327d6cb484679874953d48ac442f448",
+  "source_yaml_content": {
+    "path": "dataset/processed/PPE",
+    "train": "train_balanced/images",
+    "val": "valid/images",
+    "test": "test/images",
+    "nc": 4,
+    "names": {
+      "0": "Helmet",
+      "1": "NoHelmet",
+      "2": "NoVest",
+      "3": "Vest"
+    }
+  },
+  "source_validation": "C:\\Users\\Hp\\Documents\\GitHub\\NHA-5-178\\AI-Construction-Safety-Monitor\\dataset\\processed\\PPE\\valid",
+  "staged_validation": "C:\\Users\\Hp\\Documents\\GitHub\\NHA-5-178\\AI-Construction-Safety-Monitor\\runs\\PPE\\step3_evaluation\\review_20261118_01\\staged_validation",
+  "versions": {
+    "python": "3.10.0",
+    "ultralytics": "8.4.202",
+    "torch": "2.14.1+cpu",
+    "opencv": "5.0.0"
+  },
+  "settings": {
+    "split": "val",
+    "imgsz": 320,
+    "batch": 4,
+    "device": "cpu",
+    "workers": 0,
+    "plots": false,
+    "conf": 0.001,
+    "iou": 0.7
+  },
+  "limitations": [
+    "Validation labels have not received complete human review.",
+    "Ultralytics precision and recall are operating-point metrics; fixed-threshold counts use a different procedure."
+  ],
+  "aggregate": {
+    "precision": 0.624253874003887,
+    "recall": 0.694854140859474,
+    "map50": 0.6815153549447236,
+    "map50_95": 0.4673618490277274
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class": "Helmet",
+      "precision": 0.5495652141499338,
+      "recall": 0.6727161524641886,
+      "map50": 0.6217173783189078,
+      "map50_95": 0.43027920016710697
+    },
+    {
+      "class_id": 1,
+      "class": "NoHelmet",
+      "precision": 0.6523136223202813,
+      "recall": 0.7572499180633289,
+      "map50": 0.7380083611045927,
+      "map50_95": 0.5117391498934021
+    },
+    {
+      "class_id": 2,
+      "class": "NoVest",
+      "precision": 0.5070875406286762,
+      "recall": 0.5491425801056021,
+      "map50": 0.5253905139321848,
+      "map50_95": 0.34886682627386284
+    },
+    {
+      "class_id": 3,
+      "class": "Vest",
+      "precision": 0.7880491189166567,
+      "recall": 0.8003079128047763,
+      "map50": 0.840945166423209,
+      "map50_95": 0.578562219776538
+    }
+  ]
+}

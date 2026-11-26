@@ -1,0 +1,27 @@
+
+========== CORRECTED DETECTION ERROR ANALYSIS ==========
+Image size: 320
+Confidence: 0.25
+IoU threshold: 0.5
+
+--- Overall Detection Metrics ---
+True Positives: 649
+False Positives: 581
+False Negatives: 180
+Overall Precision: 0.5276
+Overall Recall: 0.7829
+
+--- Object Size Analysis ---
+Small: GT=296, TP=192, FN=104, Recall=0.6486
+Medium: GT=331, TP=280, FN=51, Recall=0.8459
+Large: GT=202, TP=177, FN=25, Recall=0.8762
+
+Small Object Recall: 0.6486
+
+--- Per-Class Detection Metrics ---
+Helmet: TP=228, FP=258, FN=64
+NoHelmet: TP=132, FP=102, FN=34
+NoVest: TP=101, FP=150, FN=47
+Vest: TP=188, FP=71, FN=35
+
+Analysis completed!
